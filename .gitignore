@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Security audit logs
+audit.jsonl
+*.log
+
+# Local protected documents
+protected_documents/
+
+# Local IDE settings
+.vscode/
+.idea/
